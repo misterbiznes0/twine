@@ -1,13 +1,13 @@
 # Twine
 1. Добавление раздела [[Дальше]]
-2. Добавление картинки персонажа <img src = "[https://github.com/Z1Dipex/Twine/blob/main/kandinsky-download-1761045140574-no-bg-preview%20(carve.photos).png?raw=true](https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true)">
+2. Добавление картинки персонажа <img src = "https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true">
 ```
-<img src = "https://github.com/Z1Dipex/Twine/blob/main/kandinsky-download-1761045140574-no-bg-preview%20(carve.photos).png?raw=true">
+<img src = "https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true">
 ```
 3. Добавление фона 
 ```
 tw-story {
-  background-image: url('https://github.com/Z1Dipex/Twine/blob/main/image.png?raw=true');
+  background-image: url('https://github.com/misterbiznes0/twine/blob/main/fon.png?raw=true');
     background-size: cover
 }
 ```
