@@ -1,0 +1,83 @@
+:: StoryTitle
+Test
+
+
+:: StoryData
+{
+  "ifid": "56E89400-40A5-49D3-84BD-63AC8FA9BF02",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "tag-colors": {
+    "1": "red",
+    "2": "orange"
+  },
+  "zoom": 1
+}
+
+
+:: Untitled Passage [1] {"position":"800,400","size":"100,100"}
+<img src = "https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true">
+
+<div class="text-box">
+    Никита проснулся утром с чувством легкой тревоги. Сегодня первый день занятий на новом курсе повышения квалификации "МДКД" (методология диагностики и коррекции девиантного поведения). Этот выбор казался странным многим знакомым, ведь раньше он специализировался совсем на другом направлении педагогики.
+    [[Дальше]]
+</div>
+
+
+:: Дальше [1] {"position":"925,400","size":"100,100"}
+<img src = "https://github.com/Z1Dipex/Twine/blob/main/kandinsky-download-1761045140574-no-bg-preview%20(carve.photos).png?raw=true">
+
+<div class="text-box">
+Почему Никиту заинтересовал этот курс?
+
+[[Хочет разобраться в собственных проблемах.]]
+[[Решил заняться профилактической работой среди молодежи.]]
+</div>
+
+
+:: Хочет разобраться в собственных проблемах [2] {"position":"1050,500","size":"100,100"}
+<img src = "https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true">
+
+<div class="text-box">
+Похоже, собственное поведение стало вызывать у него беспокойство.
+</div>
+
+
+:: Решил заняться профилактической работой среди молодежи. [2] {"position":"1050,300","size":"100,100"}
+<img src = "https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true">
+
+<div class="text-box">
+Осознаёт важность профилактики негативных явлений в обществе.
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+/* Стиль для основного контента */
+#passages {
+    position: relative;
+}
+
+/* Подложка для текста */
+.passage {
+    position: relative;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    z-index: 100;
+}
+tw-story {
+  background-image: url('https://github.com/misterbiznes0/twine/blob/main/fon.png?raw=true');
+    background-size: cover
+}
