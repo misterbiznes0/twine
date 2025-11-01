@@ -1,0 +1,66 @@
+:: StoryTitle
+twine
+
+
+:: StoryData
+{
+  "ifid": "DACBFE46-4D61-497D-92D8-0E226370C8D2",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Безымянный параграф",
+  "zoom": 1
+}
+
+
+:: Безымянный параграф {"position":"900,375","size":"100,100"}
+[[Хочет разобраться в собственных проблемах.]]
+[[Решил заняться профилактической работой среди молодежи.]]
+<div class="text-box">Никита проснулся утром с чувством легкой тревоги. Сегодня первый день занятий на новом курсе повышения квалификации "МДКД". Этот выбор казался странным многим знакомым, ведь раньше он специализировался совсем на другом направлении педагогики.
+Почему Никиту заинтересовал этот курс?
+</div>
+
+<img src="https://github.com/misterbiznes0/twine/blob/main/user1.png?raw=true" width="900" height="900" alt="user"> 
+
+
+
+
+:: Решил заняться профилактической работой среди молодежи. {"position":"950,500","size":"100,100"}
+Осознаёт важность профилактики негативных явлений в обществе.
+<img src="https://github.com/misterbiznes0/twine/blob/main/video.gif?raw=true" width="900" height="900" alt="user"> 
+
+
+:: Хочет разобраться в собственных проблемах. {"position":"837.5,500","size":"100,100"}
+Похоже, собственное поведение стало вызывать у него беспокойство.
+<img src="https://github.com/misterbiznes0/twine/blob/main/video.gif?raw=true" width="900" height="900" alt="user"> 
+
+
+:: StoryStylesheet [stylesheet]
+\:: StoryStylesheet [stylesheet]
+/* Стиль для основного контента */
+#passages {
+    position: relative;
+}
+
+/* Подложка для текста */
+.passage {
+    position: relative;
+}
+
+.text-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 800px;
+    z-index: 100;
+}
+tw-story {
+  background-image: url('https://github.com/misterbiznes0/twine/blob/main/fon.png?raw=true');
+    background-size: cover
+}
